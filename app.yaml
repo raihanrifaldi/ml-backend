@@ -1,8 +1,0 @@
-runtime: nodejs20
-
-env: standard
-entrypoint: node src/server/server.js
-
-handlers:
-  - url: /.*
-    script: auto
